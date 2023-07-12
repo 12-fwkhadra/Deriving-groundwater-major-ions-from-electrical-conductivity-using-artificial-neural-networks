@@ -10,7 +10,7 @@ add picture
 
 ![proposed algorithm](https://github.com/12-fwkhadra/Deriving-groundwater-major-ions-from-electrical-conductivity-using-artificial-neural-networks/assets/70538261/5521b6db-a8cd-40fa-994e-cfdd3eeca872)
 
-For further explanation for the algorithm and its consisting models check the following pdf: [GitHub Pages](https://pages.github.com/)
+For further explanation for the algorithm and its consisting models check the following pdf: [GitHub Pages]([https://pages.github.com/](https://github.com/12-fwkhadra/Deriving-groundwater-major-ions-from-electrical-conductivity-using-artificial-neural-networks/blob/ab297f776c751ba54d30cc18bb85d08feac67df9/Algorithm%20Methodology.pdf))
 
 ## Getting Started
 
