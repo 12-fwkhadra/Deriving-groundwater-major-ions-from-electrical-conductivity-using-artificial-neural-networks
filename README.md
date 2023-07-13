@@ -11,18 +11,18 @@ The algorithm is made up of two submodels: submodel 1 responsible for predicitng
 
 For further explanation for the algorithm and its consisting models check the following pdf: [GitHub Pages](https://github.com/12-fwkhadra/Deriving-groundwater-major-ions-from-electrical-conductivity-using-artificial-neural-networks/blob/ab297f776c751ba54d30cc18bb85d08feac67df9/Algorithm%20Methodology.pdf)
 
-## Getting Started
-
-Before running the gui, ensure the following requirements:
+## Requirements
 
 - Technical Requirements:
-  1. install MATLAB R2020 version or higher.
-  2. install Python and set its environment.
-  3. install the following Python packages: pandas, numpy, pickle, sys, sklearn.
+  1. MATLAB R2020 version or higher;
+  2. Python 3.9 or higher;
+  3. Python packages: pandas, numpy, pickle, sys, sklearn.
 - Hydrochemical-input Requirements:  
-   acquire EC_20 values. In case the EC values obtained are EC_25 or EC_18, apply the following conversions before proceeding:  
+   EC_20 values. In case the obtained EC values are EC_25 or EC_18, apply the following conversions before proceeding:  
    EC_20= EC_25\*0.885  
    EC_20= EC_18\*1.046
+
+## Installing and Setting up
 
 After achieving the above requirements:
 
@@ -38,6 +38,12 @@ After achieving the above requirements:
 * open and run "mainInterface.mlapp". 1. select the csv file that has the EC_20 values. Selecting different file type will raise an error. Selecting a file that contains other than EC_20 values will raise an error. 2. select the folder in which the results will be saved in. In this selected folder 2 csv files will be created: one representing the results of the salinized samples, second representing the results of the fresh samples.
   Once finishing the selections required, the mainScript will automatically start running.
 * upon finishing, the interface will pop up a message. Open the folder you selected to find the results.
+
+## Visualization
+
+## Limitations
+
+This algorithm is reliable for EC_20 values ranging between 450 and 3,000 uS/cm. Further training on more data covering wider range is required.
 
 ## Contact Us
 
