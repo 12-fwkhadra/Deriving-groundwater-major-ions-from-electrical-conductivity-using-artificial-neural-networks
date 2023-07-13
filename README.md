@@ -7,7 +7,7 @@ This GUI interface is built using MATLAB R2020a. Embedded, the GUI script runs M
 Inspired by the ease of acquiring Electrical Conductivity proxy, an AI-based algorithm is developed. It is capable of extracting a relationship between EC (as a predictor) and 7 major water constituents as predicted variables (Cl, Na, Mg, K, SO4, Ca and HCO3).
 The algorithm is made up of two submodels: submodel 1 responsible for predicitng the major ions for salinized samples (EC>900 uS/cm) whereas the submodel 2 is responsible for predicting the major ions for fresh samples (EC<900 uS/cm>).
 
-![proposed algorithm](https://github.com/12-fwkhadra/Deriving-groundwater-major-ions-from-electrical-conductivity-using-artificial-neural-networks/assets/70538261/5521b6db-a8cd-40fa-994e-cfdd3eeca872)
+![proposed algorithm](https://github.com/12-fwkhadra/Deriving-groundwater-major-ions-from-electrical-conductivity-using-artificial-neural-networks/blob/15433380db90a0567aef043ed43ec1238cd87f00/proposed%20algorithm.jpg)
 
 For further explanation for the algorithm and its consisting models check the following pdf: [GitHub Pages](https://github.com/12-fwkhadra/Deriving-groundwater-major-ions-from-electrical-conductivity-using-artificial-neural-networks/blob/ab297f776c751ba54d30cc18bb85d08feac67df9/Algorithm%20Methodology.pdf)
 
