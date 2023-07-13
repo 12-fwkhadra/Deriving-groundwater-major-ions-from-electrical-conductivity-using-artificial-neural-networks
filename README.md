@@ -15,8 +15,6 @@ For further explanation for the algorithm and its consisting models check the fo
 
 Before running the gui, ensure the following requirements:
 
-Before running the gui, ensure the following requirements:
-
 - Technical Requirements:
   1. install MATLAB R2020 version or higher.
   2. install Python and set its environment.
