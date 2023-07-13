@@ -34,12 +34,15 @@ After achieving the above requirements:
   5. salinized_Cl_regression, fresh_Cl_SVR: Python files perdicting Chloride via regression-based and SVR formulas respectively.
   6. salinized_Ca_HCO3_analytical_solution, fresh_Ca_Mg_HCO3_analytical_solution: Python files applying the analytical solutions for both submodels elements.
 
-* open the folder in MATLAB. Make sure MATLAB's current folder and directory is that of downloaded src folder.
-* open and run "mainInterface.mlapp". 1. select the csv file that has the EC_20 values. Selecting different file type will raise an error. Selecting a file that contains other than EC_20 values will raise an error. 2. select the folder in which the results will be saved in. In this selected folder 2 csv files will be created: one representing the results of the salinized samples, second representing the results of the fresh samples.
+* open the folder in MATLAB. Make sure MATLAB's current folder and directory are that of the downloaded src folder.
+  ![Screenshot_2](https://github.com/12-fwkhadra/Deriving-groundwater-major-ions-from-electrical-conductivity-using-artificial-neural-networks/assets/70538261/a73a8d3c-faab-4a15-a1eb-43edb9bbf6e1)
+
+* open and run "mainInterface.mlapp":
+   1. select the csv file that has the EC_20 values. Selecting a different file type will raise an error. Selecting a file that contains other than EC_20 values will raise an error.
+   2. select the folder in which the results will be saved. In this selected folder 2 csv files will be created: one representing the results of the salinized samples, second representing the results of the fresh samples.
   Once finishing the selections required, the mainScript will automatically start running.
 * upon finishing, the interface will pop up a message. Open the folder you selected to find the results.
-
-## Visualization
+  ![Screenshot 2023-07-13 110209](https://github.com/12-fwkhadra/Deriving-groundwater-major-ions-from-electrical-conductivity-using-artificial-neural-networks/assets/70538261/8294dae1-e7d0-4759-a801-27a4cb4ba02c)
 
 ## Limitations
 
