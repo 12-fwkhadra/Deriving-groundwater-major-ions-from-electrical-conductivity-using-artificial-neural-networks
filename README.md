@@ -1,4 +1,4 @@
-# Deriving groundwater major ions from electrical conductivity using artificial neural networks: GUI
+# Deriving groundwater major ions from electrical conductivity using artificial neural networks supported by analytical hydrochemical solutions: GUI
 This is the GUI interface for the algorithm that derives groundwater major ions from EC-20 value. The aim of building this GUI is to assis the flexibilty and reliability of the built algorithm so that anyone can run and test it more easily.
 This GUI interface is built using MATLAB R2020a. Embedded, the GUI script runs MATLAB and Python scripts that of the designed ANN and Regression models.
 
