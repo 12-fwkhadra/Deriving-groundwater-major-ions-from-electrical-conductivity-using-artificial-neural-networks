@@ -33,6 +33,7 @@ After achieving the above requirements:
   4. fresh_Na_SO4_ANN, fresh_K_ANN: MATLAB workspace including the ANNs as variables for further usages. These ANNs belong to submodel 2 for fresh samples.
   5. salinized_Cl_regression, fresh_Cl_SVR: Python files perdicting Chloride via regression-based and SVR formulas respectively.
   6. salinized_Ca_HCO3_analytical_solution, fresh_Ca_Mg_HCO3_analytical_solution: Python files applying the analytical solutions for both submodels elements.
+  7. chargeBalance_calcuator: Python file that includes functions applying the necessary computations for a chemical composition accuracy check.
 
 * open the folder in MATLAB. Make sure MATLAB's current folder and directory are that of the downloaded src folder.
   ![Screenshot_2](https://github.com/12-fwkhadra/Deriving-groundwater-major-ions-from-electrical-conductivity-using-artificial-neural-networks/assets/70538261/a73a8d3c-faab-4a15-a1eb-43edb9bbf6e1)
