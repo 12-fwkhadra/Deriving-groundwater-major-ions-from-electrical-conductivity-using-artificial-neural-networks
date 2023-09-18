@@ -1,4 +1,4 @@
-
+from chargeBalance_calculator import *
 import pandas as pd
 import sys
 filepath = sys.argv[1]
@@ -54,7 +54,6 @@ def HCO3_calculator(EC, Cl, SO4):
         hco3_mg=61.02*(rr-Cl_meq-SO4_meq-NO3_meq)
         return hco3_mg
 
-
 for index, row in df.iterrows():
     EC=row['EC']
     SO4=row['SO4']
@@ -68,6 +67,11 @@ for index, row in df.iterrows():
     df.at[index, 'Mg'] = Mg
     df.at[index, 'HCO3'] = bicarb
 
+    C = cations_sum(Na,K,row['Ca'],row['Mg'])
+    A = anions_sum(Cl,SO4,row['HCO3'],1)
+    CB = charge_balance(C,A)
+    accuracy = accuracy_check(C,A,CB)
+    df.at[index,'Accuracy'] = accuracy
+
+
 df.to_csv(filepath, index=False)
-
-
